@@ -1,0 +1,37 @@
+.bhromaon-footer {
+  &__holder {
+    max-width: 100%;
+    background-color: $darkGray;
+  }
+
+  &__title-holder {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 120px 15px 8px;
+  }
+
+  &__subtitle-holder {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 15px 30px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+
+  .fa {
+    padding: 0 12px;
+    transition: all ease-in-out 0.4s;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}
