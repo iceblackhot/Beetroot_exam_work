@@ -1,0 +1,76 @@
+.comment {
+    &__content {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title-holder {
+        padding-top: 121px;
+        margin-bottom: 94px;
+    }
+
+    &__title {
+        font-family: 'Aleo', sans-serif;
+        font-size: $h2;
+        font-weight: 400;
+        text-transform: capitalize;
+        color: $white;
+        text-align: center;
+    }
+
+    &__person {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+
+        @include media('<=1119px')  {
+            flex-direction: column;
+        }
+    }
+
+    &__img-holder {
+        img {
+            display: block;
+        }
+    }
+
+    &__text-holder {
+        background-color: $grey;
+        padding: 0 60px 0 54px;
+        max-width: 675px;
+
+        @include media('<=1119px')  {
+            max-width: 445px;
+        }
+    }
+
+    &__text-title {
+        font-size: $h3;
+        text-transform: uppercase;
+        color: $white;
+        font-weight: 400;
+        padding-top: 50px;
+        margin-bottom: 33px;
+    }
+
+    &__quote-holder {
+        line-height: 26px;
+        letter-spacing: -1px;
+        color: $white;
+        margin-bottom: 48px;
+
+        i {
+            position: relative;
+            bottom: 10px;
+            padding-right: 10px;
+            font-size: 22px;
+            color: $blue;
+        }
+    }
+}

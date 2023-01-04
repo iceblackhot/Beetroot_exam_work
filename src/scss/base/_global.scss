@@ -1,35 +1,11 @@
 html {
-  height: 100%;
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  height: 100%;
-}
-
-.wrapper {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 100%;
-  margin: 0 auto;
-}
-
-.container {
-  width: 100%;
-  // max-width: 1770px;
-  margin: 0 auto;
-}
-
-main {
-  flex: 1 1 auto;
-}
-
-.footer {
+    font-family: 'Josefin', 'Aleo', sans-serif;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }

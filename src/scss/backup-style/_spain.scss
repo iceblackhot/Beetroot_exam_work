@@ -1,0 +1,69 @@
+.spain {
+    &__top-block {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 229px 10% 100px;
+        display: flex;
+        justify-content: start;
+
+        @include media('<=360px') {
+            padding: 229px 2% 100px;
+        }
+    }
+
+    &__bottom-block {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 229px 10% 100px;
+        display: flex;
+        justify-content: flex-end;
+
+        @include media('<=360px') {
+            padding: 229px 2% 100px;
+        }
+    }
+
+    &__content {
+        width: 540px;
+        background-color: rgba(35, 35, 35, 0.92);
+        padding: 0 30px;
+        color: $white;
+    }
+
+    &__span-wrap {
+        padding-top: 50px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    &__title {
+        margin-bottom: 29px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    &__text-holder {
+        line-height: 26px;
+        letter-spacing: -1.1px;
+        margin-bottom: 48px;
+    }
+
+    &__button {
+        font-family: 'Aleo', sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $white;
+        height: 60px;
+        width: 225px;
+        max-width: 100%;
+        background-image: linear-gradient(45deg, rgba(73,107,254,1) 0%, rgba(73,107,254,1) 43%, rgba(84,116,253,1) 43%);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+}

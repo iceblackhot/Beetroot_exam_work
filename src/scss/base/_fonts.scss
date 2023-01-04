@@ -1,116 +1,143 @@
 @font-face {
-  font-family: "aleobold";
-  src: url("../fonts/Aleo-fonts/aleo-bold-webfont.woff2") format("woff2"),
-    url("../fonts/Aleo-fonts/aleo-bold-webfont.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'Josefin';
+    src: url('../font/fonts/Josefin/JosefinSans-Italic.eot');
+    src: url('../font/fonts/Josefin/JosefinSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Josefin/JosefinSans-Italic.woff2') format('woff2'),
+        url('../font/fonts/Josefin/JosefinSans-Italic.woff') format('woff'),
+        url('../font/fonts/Josefin/JosefinSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "aleobold_italic";
-  src: url("../fonts/Aleo-fonts/aleo-bolditalic-webfont.woff2") format("woff2"),
-    url("../fonts/Aleo-fonts/aleo-bolditalic-webfont.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'Josefin';
+    src: url('../font/fonts/Josefin/JosefinSans-Light.eot');
+    src: url('../font/fonts/Josefin/JosefinSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Josefin/JosefinSans-Light.woff2') format('woff2'),
+        url('../font/fonts/Josefin/JosefinSans-Light.woff') format('woff'),
+        url('../font/fonts/Josefin/JosefinSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "aleoitalic";
-  src: url("../fonts/Aleo-fonts/aleo-italic-webfont.woff2") format("woff2"),
-    url("../fonts/Aleo-fonts/aleo-italic-webfont.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Josefin';
+    src: url('../font/fonts/Josefin/JosefinSans-LightItalic.eot');
+    src: url('../font/fonts/Josefin/JosefinSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Josefin/JosefinSans-LightItalic.woff2') format('woff2'),
+        url('../font/fonts/Josefin/JosefinSans-LightItalic.woff') format('woff'),
+        url('../font/fonts/Josefin/JosefinSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "aleolight";
-  src: url("../fonts/Aleo-fonts/aleo-light-webfont.woff2") format("woff2"),
-    url("../fonts/Aleo-fonts/aleo-light-webfont.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'Josefin';
+    src: url('../font/fonts/Josefin/JosefinSans-Regular.eot');
+    src: url('../font/fonts/Josefin/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Josefin/JosefinSans-Regular.woff2') format('woff2'),
+        url('../font/fonts/Josefin/JosefinSans-Regular.woff') format('woff'),
+        url('../font/fonts/Josefin/JosefinSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "aleolight_italic";
-  src: url("../fonts/Aleo-fonts/aleo-lightitalic-webfont.woff2") format("woff2"),
-    url("../fonts/Aleo-fonts/aleo-lightitalic-webfont.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'Josefin';
+    src: url('../font/fonts/Josefin/JosefinSans-BoldItalic.eot');
+    src: url('../font/fonts/Josefin/JosefinSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Josefin/JosefinSans-BoldItalic.woff2') format('woff2'),
+        url('../font/fonts/Josefin/JosefinSans-BoldItalic.woff') format('woff'),
+        url('../font/fonts/Josefin/JosefinSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "aleoregular";
-  src: url("../fonts/Aleo-fonts/aleo-regular-webfont.woff2") format("woff2"),
-    url("../fonts/Aleo-fonts/aleo-regular-webfont.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Josefin';
+    src: url('../font/fonts/Josefin/JosefinSans-Bold.eot');
+    src: url('../font/fonts/Josefin/JosefinSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Josefin/JosefinSans-Bold.woff2') format('woff2'),
+        url('../font/fonts/Josefin/JosefinSans-Bold.woff') format('woff'),
+        url('../font/fonts/Josefin/JosefinSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "josefin_sansthin_italic";
-  src: url("../fonts/josefinsans-fonts/JosefinSans-Bold.woff2") format("woff2"),
-    url("../fonts/josefinsans-fonts/JosefinSans-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'Aleo';
+    src: url('../font/fonts/Aleo/Aleo-Regular.eot');
+    src: url('../font/fonts/Aleo/Aleo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Aleo/Aleo-Regular.woff2') format('woff2'),
+        url('../font/fonts/Aleo/Aleo-Regular.woff') format('woff'),
+        url('../font/fonts/Aleo/Aleo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "josefin_sansthin";
-  src: url("../fonts/josefinsans-fonts/JosefinSans-Regular.woff2")
-      format("woff2"),
-    url("../fonts/josefinsans-fonts/JosefinSans-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Aleo';
+    src: url('../font/fonts/Aleo/Aleo-Italic.eot');
+    src: url('../font/fonts/Aleo/Aleo-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Aleo/Aleo-Italic.woff2') format('woff2'),
+        url('../font/fonts/Aleo/Aleo-Italic.woff') format('woff'),
+        url('../font/fonts/Aleo/Aleo-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Myriad Pro";
-  src: url("../fonts/MyriadPro/MyriadPro-Regular.eot");
-  src: local("Myriad Pro Regular"), local("MyriadPro-Regular"),
-    url("../fonts/MyriadPro/MyriadPro-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/MyriadPro/MyriadPro-Regular.woff") format("woff"),
-    url("../fonts/MyriadPro/MyriadPro-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Aleo';
+    src: url('../font/fonts/Aleo/Aleo-BoldItalic.eot');
+    src: url('../font/fonts/Aleo/Aleo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Aleo/Aleo-BoldItalic.woff2') format('woff2'),
+        url('../font/fonts/Aleo/Aleo-BoldItalic.woff') format('woff'),
+        url('../font/fonts/Aleo/Aleo-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "icomoon";
-  src: url("../fonts/icons/fonts/icomoon.eot");
-  src: url("../fonts/icons/fonts/icomoon.eot") format("embedded-opentype"),
-    url("../fonts/icons/fonts/icomoon.ttf") format("truetype"),
-    url("../fonts/icons/fonts/icomoon.woff") format("woff"),
-    url("../fonts/icons/fonts/icomoon.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'Aleo';
+    src: url('../font/fonts/Aleo/Aleo-Bold.eot');
+    src: url('../font/fonts/Aleo/Aleo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Aleo/Aleo-Bold.woff2') format('woff2'),
+        url('../font/fonts/Aleo/Aleo-Bold.woff') format('woff'),
+        url('../font/fonts/Aleo/Aleo-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'Aleo';
+    src: url('../font/fonts/Aleo/Aleo-Light.eot');
+    src: url('../font/fonts/Aleo/Aleo-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Aleo/Aleo-Light.woff2') format('woff2'),
+        url('../font/fonts/Aleo/Aleo-Light.woff') format('woff'),
+        url('../font/fonts/Aleo/Aleo-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
-.icon-like2:before {
-  content: "\e900";
-}
-.icon-check:before {
-  content: "\e901";
-}
-.icon-angle-down-circle:before {
-  content: "\e902";
-}
-.icon-search:before {
-  content: "\e903";
+@font-face {
+    font-family: 'Aleo';
+    src: url('../font/fonts/Aleo/Aleo-LightItalic.eot');
+    src: url('../font/fonts/Aleo/Aleo-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/fonts/Aleo/Aleo-LightItalic.woff2') format('woff2'),
+        url('../font/fonts/Aleo/Aleo-LightItalic.woff') format('woff'),
+        url('../font/fonts/Aleo/Aleo-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
 }
