@@ -1,137 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/main.css" />
     <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="src/js/main.js"></script>
     <title>Bhromaon</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="heading">
-        <div class="heading__block">
-            <div class="heading__container"><a class="heading__container-link" href="#">bhromaon</a></div>
-            <nav class="heading__nav">
-                <ul class="heading__list">
-                    <li class="heading__item"><a href="#choose-us" class="heading__link">who we are</a></li>
-                    <li class="heading__item"><a href="#spain" class="heading__link">what we do</a></li>
-                    <li class="heading__item"><a href="#comment" class="heading__link">travel with us</a></li>
-                    <li class="heading__item"><a href="#about-us" class="heading__link">contact us</a></li>
-                </ul>
-            </nav>
-            <button class="heading__burger js-nav-opener"><span></span></button>
+      <div class="heading__block">
+        <div class="heading__container">
+          <a class="heading__container-link" href="#">bhromaon</a>
         </div>
+        <nav class="heading__nav">
+          <ul class="heading__list">
+            <li class="heading__item"><a href="#choose-us" class="heading__link">who we are</a></li>
+            <li class="heading__item"><a href="#spain" class="heading__link">what we do</a></li>
+            <li class="heading__item">
+              <a href="#comment" class="heading__link">travel with us</a>
+            </li>
+            <li class="heading__item"><a href="#about-us" class="heading__link">contact us</a></li>
+          </ul>
+        </nav>
+        <button class="heading__burger js-nav-opener"><span></span></button>
+      </div>
     </header>
     <main>
-        <section class="search-page">
-            <div class="search-page__block" style="background-image: url(src/img/blueMountainBackground.png);">
-                <div class="search-page__content">
-                    <div class="search-page__text-holder">
-                        <h1 class="search-page__title">bhromaon</h1>
-                        <p>safe travel anywhere</p>
-                    </div>
-                    <div class="search-page__search">
-                        <form action="#" class="search-page__form">
-                            <div class="search-page__input-holder"><input class="search-page__input" type="text" placeholder="Search Your Travel Destination"></div>
-                            <div class="search-page__button-holder"><button class="search-page__button"><span>Search</span><i class="icon-search"></i></button></div>
-                        </form>
-                    </div>
-                </div>
-                <div class="search-page__scroll-holder">
-                    <a class="search-page__scroll-link" href="#choose-us">scroll down</a>
-                </div>
+      <section class="search-page">
+        <div
+          class="search-page__block"
+          style="background-image: url(src/img/blueMountainBackground.png)"
+        >
+          <div class="search-page__content">
+            <div class="search-page__text-holder">
+              <h1 class="search-page__title">bhromaon</h1>
+              <p>safe travel anywhere</p>
             </div>
-        </section>
-        <section class="choose-us" id="choose-us">
-            <div class="choose-us__top-block" style="background-image: url(src/img/WhyCooseUsBackground.png);">
-                <div class="choose-us__text-content">
-                    <div class="choose-us__title-holder">
-                        <h2 class="choose-us__title">Why Choose Us</h2>
-                    </div>
-                    <div class="choose-us__text-holder">
-                        <p>Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee </p>
-                        <p>Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
-                    </div>
-                    <div class="choose-us__button-holder">
-                        <button class="choose-us__button">Explore Places </button>
-                    </div>
+            <div class="search-page__search">
+              <form action="#" class="search-page__form">
+                <div class="search-page__input-holder">
+                  <input
+                    class="search-page__input"
+                    type="text"
+                    placeholder="Search Your Travel Destination"
+                  />
                 </div>
-                <div class="choose-us__img-content">
-                    <div class="choose-us__img-holder choose-us__img-holder_left"><img src="src/img/lake.png" alt="lake"></div>
-                    <div class="choose-us__img-holder choose-us__img-holder_right"><img src="src/img/mountain.png" alt="mountain"></div>
+                <div class="search-page__button-holder">
+                  <button class="search-page__button">
+                    <span>Search</span><i class="icon-search"></i>
+                  </button>
                 </div>
+              </form>
             </div>
-            <div class="choose-us__bottom-block">
-                <ul class="choose-us__list">
-                    <li class="choose-us__item choose-us__item_left">
-                        <div class="choose-us__icon-holder choose-us__icon-holder_dark-blue"><i class="icon-search"></i></div>
-                        <div class="choose-us__item-text-holder"><span class="choose-us__item-text">Search Places</span></div>
-                    </li>
-                    <li class="choose-us__item choose-us__item_center">
-                        <div class="choose-us__icon-holder choose-us__icon-holder_red"><i class="icon-check"></i></div>
-                        <div class="choose-us__item-text-holder choose-us__item-text-holder_padding-media"><span class="choose-us__item-text">Select Places</span></div>
-                    </li>
-                    <li class="choose-us__item choose-us__item_right">
-                        <div class="choose-us__icon-holder choose-us__icon-holder_blue"><i class="icon-like"></i></div>
-                        <div class="choose-us__item-text-holder"><span class="choose-us__item-text">Book & Enjoy</span></div>
-                    </li>
-                </ul>
-                <div class="choose-us__background-holder">
-                    <div class="choose-us__background choose-us__background_left" style="background-image: url(src/img/border-half.png);"></div>
-                    <div class="choose-us__background choose-us__background_right" style="background-image: url(src/img/border-half.png);"></div>
-                </div>
+          </div>
+          <div class="search-page__scroll-holder">
+            <a class="search-page__scroll-link" href="#choose-us">scroll down</a>
+          </div>
+        </div>
+      </section>
+      <section class="choose-us" id="choose-us">
+        <div
+          class="choose-us__top-block"
+          style="background-image: url(src/img/WhyCooseUsBackground.png)"
+        >
+          <div class="choose-us__text-content">
+            <div class="choose-us__title-holder">
+              <h2 class="choose-us__title">Why Choose Us</h2>
             </div>
-        </section>
-        <section class="spain" id="spain">
-            <div class="spain__top-block" style="background-image: url(src/img/cottage.png);">
-                <div class="spain__content spain__content_left">
-                    <div class="spain__span-wrap"><span>Spain</span></div>
-                    <div class="spain__title-holder"><h2 class="spain__title">Grand Spain Madrid</h2></div>
-                    <div class="spain__text-holder"><p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account &nbsp;born and I account will give you a complete account of the system</p></div>
-                    <div class="spain__button-holder spain__button-holder-padding"><button class="spain__button">book now</button></div>
-                </div>
+            <div class="choose-us__text-holder">
+              <p>
+                Tion and dislike men who are so beguiled and demoralized by desire by the charms of
+                pleasure of the moment, so blinded by desire, that they cannot foresee
+              </p>
+              <p>
+                Ddislike men who are so beguiled and demoralized by the charms of pleasure of the
+                moment, so blinded by desire, that.
+              </p>
             </div>
-            <div class="spain__bottom-block" style="background-image: url(src/img/stone-massive.png);">
-                <div class="spain__content spain__content_right">
-                    <div class="spain__span-wrap"><span>Spain</span></div>
-                    <div class="spain__title-holder"><h2 class="spain__title">Grand Spain Madrid</h2></div>
-                    <div class="spain__text-holder"><p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account &nbsp;born and I account will give you a complete account of the system</p></div>
-                    <div class="spain__button-holder spain__button-holder-padding"><button class="spain__button spain__button_bottom">book now</button></div>
-                </div>
+            <div class="choose-us__button-holder">
+              <button class="choose-us__button">Explore Places</button>
             </div>
-        </section>
-        <section class="comment" id="comment">
-            <div class="comment__content" style="background-image: url(src/img/touristBackground.png);">
-                <div class="comment__title-holder"><h2 class="comment__title">what our tourist say</h2></div>
-                <div class="comment__person">
-                    <div class="comment__img-holder"><img src="src/img/touristMountain.png" alt="tourist on mountain"></div>
-                    <div class="comment__text-holder">
-                        <div class="comment__text-title-holder"><h3 class="comment__text-title">sam sumon</h3></div>
-                        <div class="comment__quote-holder"><blockquote><i class="icon-quote-left"></i>
-                            But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain &nbsp;But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account &nbsp;born and I account will give you a complete account of the system was account &nbsp;born and I account will give you a nai the complete account of the system
-                        </blockquote></div>
-                    </div>
-                </div>
+          </div>
+          <div class="choose-us__img-content">
+            <div class="choose-us__img-holder choose-us__img-holder_left">
+              <img src="src/img/lake.png" alt="lake" />
             </div>
-        </section>
+            <div class="choose-us__img-holder choose-us__img-holder_right">
+              <img src="src/img/mountain.png" alt="mountain" />
+            </div>
+          </div>
+        </div>
+        <div class="choose-us__bottom-block">
+          <ul class="choose-us__list">
+            <li class="choose-us__item choose-us__item_left">
+              <div class="choose-us__icon-holder choose-us__icon-holder_dark-blue">
+                <i class="icon-search"></i>
+              </div>
+              <div class="choose-us__item-text-holder">
+                <span class="choose-us__item-text">Search Places</span>
+              </div>
+            </li>
+            <li class="choose-us__item choose-us__item_center">
+              <div class="choose-us__icon-holder choose-us__icon-holder_red">
+                <i class="icon-check"></i>
+              </div>
+              <div class="choose-us__item-text-holder choose-us__item-text-holder_padding-media">
+                <span class="choose-us__item-text">Select Places</span>
+              </div>
+            </li>
+            <li class="choose-us__item choose-us__item_right">
+              <div class="choose-us__icon-holder choose-us__icon-holder_blue">
+                <i class="icon-like"></i>
+              </div>
+              <div class="choose-us__item-text-holder">
+                <span class="choose-us__item-text">Book & Enjoy</span>
+              </div>
+            </li>
+          </ul>
+          <div class="choose-us__background-holder">
+            <div
+              class="choose-us__background choose-us__background_left"
+              style="background-image: url(src/img/border-half.png)"
+            ></div>
+            <div
+              class="choose-us__background choose-us__background_right"
+              style="background-image: url(src/img/border-half.png)"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <section class="spain" id="spain">
+        <div class="spain__top-block" style="background-image: url(src/img/cottage.png)">
+          <div class="spain__content spain__content_left">
+            <div class="spain__span-wrap"><span>Spain</span></div>
+            <div class="spain__title-holder"><h2 class="spain__title">Grand Spain Madrid</h2></div>
+            <div class="spain__text-holder">
+              <p>
+                But I must explain to you how all this mistaken idea of account to denouncing
+                pleasure and praising pain was account &nbsp;born and I account will give you a
+                complete account of the system
+              </p>
+            </div>
+            <div class="spain__button-holder spain__button-holder-padding">
+              <button class="spain__button">book now</button>
+            </div>
+          </div>
+        </div>
+        <div class="spain__bottom-block" style="background-image: url(src/img/stone-massive.png)">
+          <div class="spain__content spain__content_right">
+            <div class="spain__span-wrap"><span>Spain</span></div>
+            <div class="spain__title-holder"><h2 class="spain__title">Grand Spain Madrid</h2></div>
+            <div class="spain__text-holder">
+              <p>
+                But I must explain to you how all this mistaken idea of account to denouncing
+                pleasure and praising pain was account &nbsp;born and I account will give you a
+                complete account of the system
+              </p>
+            </div>
+            <div class="spain__button-holder spain__button-holder-padding">
+              <button class="spain__button spain__button_bottom">book now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="comment" id="comment">
+        <div class="comment__content" style="background-image: url(src/img/touristBackground.png)">
+          <div class="comment__title-holder">
+            <h2 class="comment__title">what our tourist say</h2>
+          </div>
+          <div class="comment__person">
+            <div class="comment__img-holder">
+              <img src="src/img/touristMountain.png" alt="tourist on mountain" />
+            </div>
+            <div class="comment__text-holder">
+              <div class="comment__text-title-holder">
+                <h3 class="comment__text-title">sam sumon</h3>
+              </div>
+              <div class="comment__quote-holder">
+                <blockquote>
+                  <i class="icon-quote-left"></i>
+                  But I must explain to you how all this mistaken idea of account to
+                  denouncinpleasure and praising pain &nbsp;But I must explain to you how all this
+                  mistaken idea of account to nai denouncing pleasure and praising pain was account
+                  &nbsp;born and I account will give you a complete account of the system was
+                  account &nbsp;born and I account will give you a nai the complete account of the
+                  system
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="about-us" id="about-us">
-        <div class="about-us__content">
-            <div class="about-us__title-holder"><h2 class="about-us__title">bhromaon</h2></div>
-            <div class="about-us__text-holder"><p>safe travel anywhere</p></div>
-            <ul class="about-us__list">
-                <li class="about-us__item"><a href="#" class="about-us__link"><i class="icon-facebook"></i></a></li>
-                <li class="about-us__item"><a href="#" class="about-us__link"><i class="icon-twitter"></i></a></li>
-                <li class="about-us__item"><a href="#" class="about-us__link"><i class="icon-linkedin"></i></a></li>
-                <li class="about-us__item"><a href="#" class="about-us__link about-us__link_red"><i class="icon-youtube"></i></a></li>
-                <li class="about-us__item"><a href="#" class="about-us__link about-us__link_red"><i class="icon-pinterest"></i></a></li>
-            </ul>
-        </div>
+      <div class="about-us__content">
+        <div class="about-us__title-holder"><h2 class="about-us__title">bhromaon</h2></div>
+        <div class="about-us__text-holder"><p>safe travel anywhere</p></div>
+        <ul class="about-us__list">
+          <li class="about-us__item">
+            <a href="#" class="about-us__link"><i class="icon-facebook"></i></a>
+          </li>
+          <li class="about-us__item">
+            <a href="#" class="about-us__link"><i class="icon-twitter"></i></a>
+          </li>
+          <li class="about-us__item">
+            <a href="#" class="about-us__link"><i class="icon-linkedin"></i></a>
+          </li>
+          <li class="about-us__item">
+            <a href="#" class="about-us__link about-us__link_red"><i class="icon-youtube"></i></a>
+          </li>
+          <li class="about-us__item">
+            <a href="#" class="about-us__link about-us__link_red"><i class="icon-pinterest"></i></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
